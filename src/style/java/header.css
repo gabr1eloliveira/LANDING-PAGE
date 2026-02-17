@@ -56,5 +56,19 @@ header{
     
     #mobile_menu.active{
         display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mobile_nav_list{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin: 12px 0px;
+    }
+
+     #mobile_nav_list .nav-item {
+        list-style: none;
+        text-align: center;
     }
 }
